@@ -5,7 +5,6 @@
   max-height: 0;
   opacity: 0;
   -webkit-transform: translateX(-300px);
-      -ms-transform: translateX(-300px);
           transform: translateX(-300px);
   -webkit-animation: openSpace 500ms ease forwards, moveIn 750ms 500ms ease forwards;
           animation: openSpace 500ms ease forwards, moveIn 750ms 500ms ease forwards; }
@@ -66,7 +65,6 @@
   max-height: 0;
   opacity: 0;
   -webkit-transform: scale(0);
-      -ms-transform: scale(0);
           transform: scale(0);
   -webkit-animation: growHeight 500ms ease forwards;
           animation: growHeight 500ms ease forwards; }
@@ -191,7 +189,6 @@
   -webkit-backface-visibility: visible;
           backface-visibility: visible;
   -webkit-transform-origin: top left;
-      -ms-transform-origin: top left;
           transform-origin: top left;
   -webkit-animation: FlipIn 2500ms both 500ms, openSpace 500ms ease forwards;
           animation: FlipIn 2500ms both 500ms, openSpace 500ms ease forwards; }
@@ -200,7 +197,6 @@
   -webkit-backface-visibility: visible;
           backface-visibility: visible;
   -webkit-transform-origin: top left;
-      -ms-transform-origin: top left;
           transform-origin: top left;
   -webkit-animation: FlipOut 2500ms both 500ms, closeSpace 1000ms ease forwards 1000ms;
           animation: FlipOut 2500ms both 500ms, closeSpace 1000ms ease forwards 1000ms; }
@@ -259,7 +255,6 @@
   -webkit-backface-visibility: visible;
           backface-visibility: visible;
   -webkit-transform-origin: top left;
-      -ms-transform-origin: top left;
           transform-origin: top left;
   -webkit-animation: fallOffX 1000ms both, closeSpace 750ms ease forwards 500ms;
           animation: fallOffX 1000ms both, closeSpace 750ms ease forwards 500ms; }
@@ -374,7 +369,6 @@
   -webkit-backface-visibility: visible;
           backface-visibility: visible;
   -webkit-transform-origin: top left;
-      -ms-transform-origin: top left;
           transform-origin: top left;
   -webkit-animation: wobbleOutY 1500ms both 500ms, closeSpace 500ms ease forwards 1500ms;
           animation: wobbleOutY 1500ms both 500ms, closeSpace 500ms ease forwards 1500ms; }

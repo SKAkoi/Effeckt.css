@@ -19,7 +19,6 @@
 [data-effeckt-type="slide-up"] .effeckt-lazy-loading-element.animating {
   opacity: 0;
   -webkit-transform: translateY(200px);
-      -ms-transform: translateY(200px);
           transform: translateY(200px);
   -webkit-animation: slideUp 0.5s ease forwards;
           animation: slideUp 0.5s ease forwards; }
@@ -39,7 +38,6 @@
 [data-effeckt-type="scale-up"] .effeckt-lazy-loading-element.animating {
   opacity: 0;
   -webkit-transform: scale(0.6);
-      -ms-transform: scale(0.6);
           transform: scale(0.6);
   -webkit-animation: scaleUp 0.5s ease forwards;
           animation: scaleUp 0.5s ease forwards; }
@@ -64,7 +62,6 @@
     -webkit-transform-style: preserve-3d;
             transform-style: preserve-3d;
     -webkit-transform: scale(1.4);
-        -ms-transform: scale(1.4);
             transform: scale(1.4);
     -webkit-animation: scaleDown 0.5s ease forwards;
             animation: scaleDown 0.5s ease forwards; }
@@ -112,7 +109,6 @@
     -webkit-transform-style: preserve-3d;
             transform-style: preserve-3d;
     -webkit-transform-origin: 50% 50% -300px;
-        -ms-transform-origin: 50% 50% -300px;
             transform-origin: 50% 50% -300px;
     -webkit-transform: rotateX(-180deg);
             transform: rotateX(-180deg);
@@ -139,7 +135,6 @@
     -webkit-transform-style: preserve-3d;
             transform-style: preserve-3d;
     -webkit-transform-origin: 0% 0%;
-        -ms-transform-origin: 0% 0%;
             transform-origin: 0% 0%;
     -webkit-transform: rotateX(-80deg);
             transform: rotateX(-80deg);
@@ -190,7 +185,6 @@
     -webkit-transform-style: preserve-3d;
             transform-style: preserve-3d;
     -webkit-transform: scale(0.4);
-        -ms-transform: scale(0.4);
             transform: scale(0.4);
     -webkit-animation: popup 0.5s ease-in-out forwards;
             animation: popup 0.5s ease-in-out forwards; }

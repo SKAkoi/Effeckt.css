@@ -142,7 +142,6 @@
 .effeckt-button[data-effeckt-type="zoom-out"] .spinner {
   left: 50%;
   -webkit-transform: scale(2.5);
-      -ms-transform: scale(2.5);
           transform: scale(2.5); }
 
 .effeckt-button[data-effeckt-type="zoom-out"] .label {
@@ -152,13 +151,11 @@
 .effeckt-button[data-effeckt-type="zoom-out"][data-loading] .label {
   opacity: 0;
   -webkit-transform: scale(0.5);
-      -ms-transform: scale(0.5);
           transform: scale(0.5); }
 
 .effeckt-button[data-effeckt-type="zoom-out"][data-loading] .spinner {
   opacity: 1;
   -webkit-transform: none;
-      -ms-transform: none;
           transform: none; }
 
 .effeckt-button[data-effeckt-type="zoom-in"] {
@@ -167,7 +164,6 @@
 .effeckt-button[data-effeckt-type="zoom-in"] .spinner {
   left: 50%;
   -webkit-transform: scale(0.2);
-      -ms-transform: scale(0.2);
           transform: scale(0.2); }
 
 .effeckt-button[data-effeckt-type="zoom-in"] .label {
@@ -177,13 +173,11 @@
 .effeckt-button[data-effeckt-type="zoom-in"][data-loading] .label {
   opacity: 0;
   -webkit-transform: scale(2.2);
-      -ms-transform: scale(2.2);
           transform: scale(2.2); }
 
 .effeckt-button[data-effeckt-type="zoom-in"][data-loading] .spinner {
   opacity: 1;
   -webkit-transform: none;
-      -ms-transform: none;
           transform: none; }
 
 /*==========================
@@ -201,13 +195,11 @@ FILL
     height: 100%;
     background: #000;
     -webkit-transform: translate(-100%, 0);
-        -ms-transform: translate(-100%, 0);
             transform: translate(-100%, 0);
     transition: -webkit-transform 500ms;
     transition: transform 500ms; }
   .effeckt-button[data-effeckt-type="fill-from-left"][data-loading]:after {
     -webkit-transform: translate(0, 0);
-        -ms-transform: translate(0, 0);
             transform: translate(0, 0); }
   .effeckt-button[data-effeckt-type="fill-from-left"] .effeckt-button-label {
     position: relative;
@@ -225,13 +217,11 @@ FILL
     height: 100%;
     background: #000;
     -webkit-transform: translate(100%, 0);
-        -ms-transform: translate(100%, 0);
             transform: translate(100%, 0);
     transition: -webkit-transform 500ms;
     transition: transform 500ms; }
   .effeckt-button[data-effeckt-type="fill-from-right"][data-loading]:after {
     -webkit-transform: translate(0, 0);
-        -ms-transform: translate(0, 0);
             transform: translate(0, 0); }
   .effeckt-button[data-effeckt-type="fill-from-right"] .effeckt-button-label {
     position: relative;
@@ -249,13 +239,11 @@ FILL
     height: 100%;
     background: #000;
     -webkit-transform: translate(0, -100%);
-        -ms-transform: translate(0, -100%);
             transform: translate(0, -100%);
     transition: -webkit-transform 500ms;
     transition: transform 500ms; }
   .effeckt-button[data-effeckt-type="fill-from-top"][data-loading]:after {
     -webkit-transform: translate(0, 0);
-        -ms-transform: translate(0, 0);
             transform: translate(0, 0); }
   .effeckt-button[data-effeckt-type="fill-from-top"] .effeckt-button-label {
     position: relative;
@@ -273,13 +261,11 @@ FILL
     height: 100%;
     background: #000;
     -webkit-transform: translate(0, 100%);
-        -ms-transform: translate(0, 100%);
             transform: translate(0, 100%);
     transition: -webkit-transform 500ms;
     transition: transform 500ms; }
   .effeckt-button[data-effeckt-type="fill-from-bottom"][data-loading]:after {
     -webkit-transform: translate(0, 0);
-        -ms-transform: translate(0, 0);
             transform: translate(0, 0); }
   .effeckt-button[data-effeckt-type="fill-from-bottom"] .effeckt-button-label {
     position: relative;
@@ -332,19 +318,15 @@ Example markup:
 
 .effeckt-button[data-effeckt-type~="icon-slide"][data-loading][data-effeckt-type~="from-top"] .effeckt-button-label {
   -webkit-transform: translateY(100%);
-      -ms-transform: translateY(100%);
           transform: translateY(100%); }
 .effeckt-button[data-effeckt-type~="icon-slide"][data-loading][data-effeckt-type~="from-bottom"] .effeckt-button-label {
   -webkit-transform: translateY(-100%);
-      -ms-transform: translateY(-100%);
           transform: translateY(-100%); }
 .effeckt-button[data-effeckt-type~="icon-slide"][data-loading][data-effeckt-type~="from-left"] .effeckt-button-label {
   -webkit-transform: translateX(100%);
-      -ms-transform: translateX(100%);
           transform: translateX(100%); }
 .effeckt-button[data-effeckt-type~="icon-slide"][data-loading][data-effeckt-type~="from-right"] .effeckt-button-label {
   -webkit-transform: translateX(-100%);
-      -ms-transform: translateX(-100%);
           transform: translateX(-100%); }
 
 .effeckt-button[data-effeckt-type="3d-rotate-success"], .effeckt-button[data-effeckt-type="3d-rotate-error"] {
@@ -366,7 +348,6 @@ Example markup:
   top: 100%;
   content: attr(data-effeckt-message);
   -webkit-transform-origin: 0% 0%;
-      -ms-transform-origin: 0% 0%;
           transform-origin: 0% 0%;
   -webkit-transform: rotateX(-90deg);
           transform: rotateX(-90deg);
@@ -375,7 +356,6 @@ Example markup:
 
 .effeckt-button[data-effeckt-type="3d-rotate-error"][data-loading] {
   -webkit-transform-origin: 50% 0%;
-      -ms-transform-origin: 50% 0%;
           transform-origin: 50% 0%;
   -webkit-transform: rotateX(90deg) translateY(-100%);
           transform: rotateX(90deg) translateY(-100%); }
@@ -384,7 +364,6 @@ Example markup:
   top: -100%;
   content: attr(data-effeckt-message);
   -webkit-transform-origin: 0% 100%;
-      -ms-transform-origin: 0% 100%;
           transform-origin: 0% 100%;
   -webkit-transform: rotateX(90deg);
           transform: rotateX(90deg);
@@ -393,7 +372,6 @@ Example markup:
 
 .effeckt-button[data-effeckt-type="3d-rotate-success"][data-loading] {
   -webkit-transform-origin: 50% 100%;
-      -ms-transform-origin: 50% 100%;
           transform-origin: 50% 100%;
   -webkit-transform: rotateX(-90deg) translateY(100%);
           transform: rotateX(-90deg) translateY(100%); }

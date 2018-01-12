@@ -15,7 +15,6 @@
     outline: 0;
     transition: all 0.3s ease-out;
     -webkit-transform: scale(1);
-        -ms-transform: scale(1);
             transform: scale(1);
     background: #FFF; }
   .effeckt-ckbox-ios7[type=checkbox]:checked, .effeckt-rdio-ios7:checked {
@@ -48,7 +47,6 @@
     outline: 0;
     transition: all 0.3s ease-out;
     -webkit-transform: scale(1);
-    -ms-transform: scale(1);
     transform: scale(1);
     background: #333; }
   .effeckt-ckbox-android[type=checkbox]:checked, .effeckt-rdio-android:checked {

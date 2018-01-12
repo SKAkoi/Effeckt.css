@@ -107,14 +107,12 @@
 
 [data-effeckt-page].rotate-to-behind {
   -webkit-transform-origin: -50% 50%;
-      -ms-transform-origin: -50% 50%;
           transform-origin: -50% 50%;
   -webkit-animation: rotateToBehind 500ms both ease-in;
           animation: rotateToBehind 500ms both ease-in; }
 
 [data-effeckt-page].rotate-to-front {
   -webkit-transform-origin: 150% 50%;
-      -ms-transform-origin: 150% 50%;
           transform-origin: 150% 50%;
   -webkit-animation: rotateToFront 500ms both ease-out;
           animation: rotateToFront 500ms both ease-out; }

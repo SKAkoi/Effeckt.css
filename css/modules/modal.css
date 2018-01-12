@@ -5,7 +5,6 @@
   max-width: 320px;
   min-width: 320px;
   -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   z-index: 2000;
   visibility: hidden;
@@ -41,37 +40,31 @@
 
 .from-below .effeckt-content {
   -webkit-transform: scale(0.5);
-      -ms-transform: scale(0.5);
           transform: scale(0.5);
   opacity: 0; }
 
 .effeckt-show.from-below .effeckt-content {
   -webkit-transform: scale(1);
-      -ms-transform: scale(1);
           transform: scale(1);
   opacity: 1; }
 
 .from-above .effeckt-content {
   -webkit-transform: scale(1.5);
-      -ms-transform: scale(1.5);
           transform: scale(1.5);
   opacity: 0; }
 
 .effeckt-show.from-above .effeckt-content {
   -webkit-transform: scale(1);
-      -ms-transform: scale(1);
           transform: scale(1);
   opacity: 1; }
 
 .to-below .effeckt-content {
   -webkit-transform: scale(0.5);
-      -ms-transform: scale(0.5);
           transform: scale(0.5);
   opacity: 0; }
 
 .to-above .effeckt-content {
   -webkit-transform: scale(1.5);
-      -ms-transform: scale(1.5);
           transform: scale(1.5);
   opacity: 0; }
 
@@ -118,7 +111,6 @@
 .sticky-up {
   top: 0;
   -webkit-transform: translate(-50%, 0);
-      -ms-transform: translate(-50%, 0);
           transform: translate(-50%, 0); }
 
 .sticky-up .effeckt-content {
@@ -135,12 +127,10 @@
   -webkit-transform-style: preserve-3d;
           transform-style: preserve-3d;
   -webkit-transform-origin: 50% 100%;
-      -ms-transform-origin: 50% 100%;
           transform-origin: 50% 100%; }
 
 .slip-in-from-top .effeckt-content {
   -webkit-transform: translateY(-200%);
-      -ms-transform: translateY(-200%);
           transform: translateY(-200%);
   opacity: 0; }
 
@@ -150,7 +140,6 @@
 
 .effeckt-show.slip-in-from-top .effeckt-content {
   -webkit-transform: translateY(0);
-      -ms-transform: translateY(0);
           transform: translateY(0);
   opacity: 1; }
 
@@ -170,25 +159,21 @@
 
 .slide-out-bottom .effeckt-content {
   -webkit-transform: translateY(100%);
-      -ms-transform: translateY(100%);
           transform: translateY(100%);
   opacity: 0; }
 
 .slide-out-top .effeckt-content {
   -webkit-transform: translateY(-100%);
-      -ms-transform: translateY(-100%);
           transform: translateY(-100%);
   opacity: 0; }
 
 .slide-out-right .effeckt-content {
   -webkit-transform: translateX(100%);
-      -ms-transform: translateX(100%);
           transform: translateX(100%);
   opacity: 0; }
 
 .slide-out-left .effeckt-content {
   -webkit-transform: translateX(-100%);
-      -ms-transform: translateX(-100%);
           transform: translateX(-100%);
   opacity: 0; }
 
@@ -232,7 +217,6 @@
   -webkit-transform: rotateX(-60deg);
           transform: rotateX(-60deg);
   -webkit-transform-origin: 50% 0;
-      -ms-transform-origin: 50% 0;
           transform-origin: 50% 0;
   -webkit-transform-style: preserve-3d;
           transform-style: preserve-3d;
@@ -294,7 +278,6 @@
   -webkit-transform-style: preserve-3d;
           transform-style: preserve-3d;
   -webkit-transform-origin: 0 100%;
-      -ms-transform-origin: 0 100%;
           transform-origin: 0 100%;
   opacity: 0; }
 
@@ -313,7 +296,6 @@
   -webkit-transform-style: preserve-3d;
           transform-style: preserve-3d;
   -webkit-transform-origin: 0 100%;
-      -ms-transform-origin: 0 100%;
           transform-origin: 0 100%;
   opacity: 0; }
 
@@ -327,7 +309,6 @@
   -webkit-transform: translate3d(0, 0, 0);
           transform: translate3d(0, 0, 0);
   -webkit-transform-origin: 50% 0%;
-      -ms-transform-origin: 50% 0%;
           transform-origin: 50% 0%;
   -webkit-transform-style: preserve-3d;
           transform-style: preserve-3d; }
@@ -358,7 +339,6 @@
   -webkit-transform-style: preserve-3d;
           transform-style: preserve-3d;
   -webkit-transform-origin: 0% 50%;
-      -ms-transform-origin: 0% 50%;
           transform-origin: 0% 50%; }
 
 .make-way .effeckt-content {
@@ -395,13 +375,11 @@
 
 .deep-content .effeckt-content {
   -webkit-transform: scale(0.8);
-      -ms-transform: scale(0.8);
           transform: scale(0.8);
   opacity: 0; }
 
 .effeckt-show.deep-content .effeckt-content {
   -webkit-transform: scale(1.1);
-      -ms-transform: scale(1.1);
           transform: scale(1.1);
   opacity: 1; }
 
@@ -418,13 +396,11 @@
 
 .newspaper .effeckt-content {
   -webkit-transform: scale(0.5) rotate(720deg);
-      -ms-transform: scale(0.5) rotate(720deg);
           transform: scale(0.5) rotate(720deg);
   opacity: 0; }
 
 .effeckt-show.newspaper .effeckt-content {
   -webkit-transform: scale(1) rotate(0deg);
-      -ms-transform: scale(1) rotate(0deg);
           transform: scale(1) rotate(0deg);
   opacity: 1; }
 
@@ -469,7 +445,6 @@
 
 .tilt-fall .effeckt-content {
   -webkit-transform: translateY(100%) rotate(-25deg);
-      -ms-transform: translateY(100%) rotate(-25deg);
           transform: translateY(100%) rotate(-25deg);
   opacity: 0; }
 
@@ -651,7 +626,6 @@
 
 .swing .effeckt-content {
   -webkit-transform-origin: 50% 0%;
-      -ms-transform-origin: 50% 0%;
           transform-origin: 50% 0%;
   opacity: 0; }
 
